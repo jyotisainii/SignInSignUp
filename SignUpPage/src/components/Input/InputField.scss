@@ -1,0 +1,24 @@
+// src/components/InputField.scss
+
+.input-field {
+    margin: 15px 0;
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    input {
+        width: 92%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 1rem;
+
+        &:focus {
+            border-color: green;
+            outline: none;
+        }
+    }
+}

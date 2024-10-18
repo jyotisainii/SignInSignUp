@@ -1,0 +1,17 @@
+// src/components/Button.scss
+
+.button {
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: darken(green, 10%);
+    }
+}
